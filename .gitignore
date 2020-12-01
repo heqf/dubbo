@@ -1,2 +1,7 @@
 *.iml
 springboot-dubbo-zookeeper-demo/.idea/
+.idea/
+springboot-dubbo-demo/provider/target/
+springboot-dubbo-demo/consumer/target/consumer-1.0-SNAPSHOT.jar
+springboot-dubbo-demo/api/target/
+springboot-dubbo-demo/consumer/target/
