@@ -13,6 +13,10 @@
 
     <artifactId>consumer</artifactId>
 
+    <properties>
+        <nacos-config-spring-boot.version>0.2.1</nacos-config-spring-boot.version>
+    </properties>
+
     <dependencies>
         <dependency>
             <groupId>com.dubbo</groupId>
@@ -41,6 +45,18 @@
             <groupId>com.alibaba.nacos</groupId>
             <artifactId>nacos-client</artifactId>
             <version>1.0.0</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.alibaba.boot</groupId>
+            <artifactId>nacos-config-spring-boot-starter</artifactId>
+            <version>${nacos-config-spring-boot.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.alibaba.boot</groupId>
+            <artifactId>nacos-config-spring-boot-actuator</artifactId>
+            <version>${nacos-config-spring-boot.version}</version>
         </dependency>
     </dependencies>
 
